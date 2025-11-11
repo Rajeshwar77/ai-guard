@@ -1,0 +1,8 @@
+
+{
+  "tenants": {
+    "tenant-123": {
+      "allow_unrestricted": false
+    }
+  }
+}
