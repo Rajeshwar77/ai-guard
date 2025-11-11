@@ -1,8 +1,8 @@
 
-Envoy + AI demo (proxy as ext_authz + proxy handling model calls)
+AI Guard with Envoy(proxy as ext_authz + proxy handling model calls)
 --------------------------------------------------------------------
 
-Files created under /mnt/data/ai_envoy_demo
+Files created under /mnt/data/ai_guard
 
 Services:
  - envoy : Envoy proxy listening on port 10000
@@ -10,7 +10,7 @@ Services:
  - model : Mock LLM endpoint
 
 How to run (locally with Docker):
- 1. cd /mnt/data/ai_envoy_demo
+ 1. cd /mnt/data/ai_guard
  2. docker compose up --build
  3. Send requests to Envoy (port 10000). Envoy will call the /authorize endpoint on the proxy before forwarding to /proxy.
 
